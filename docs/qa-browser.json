@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-14T18:48:27.595Z",
+  "base": "http://127.0.0.1:4300/perfil/",
+  "checks": 25,
+  "errors": [],
+  "warnings": [],
+  "brokenImages": [],
+  "media": {
+    "video": 8,
+    "audio": 8
+  },
+  "screenshots": [
+    "outputs/perfil/docs/captura-escritorio.png",
+    "outputs/perfil/docs/captura-tablet.png",
+    "outputs/perfil/docs/captura-movil.png"
+  ]
+}

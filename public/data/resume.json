@@ -1,0 +1,41 @@
+{
+  "description": "Formación proporcionada por Kiara. Fechas, experiencia y actividades complementarias son ficticias hasta su confirmación.",
+  "summary": "Estudiante de Ingeniería de Sistemas interesada en desarrollo web y soluciones digitales. Experiencia académica de demostración.",
+  "contacts": ["Unifranz", "La Paz, Bolivia (ficticio)", "Contacto: TODO completar"],
+  "education": [
+    {
+      "title": "Ingeniería de Sistemas",
+      "period": "En curso · fechas TODO",
+      "organization": "Unifranz",
+      "description": "Formación en programación, análisis de sistemas y resolución de problemas.",
+      "highlights": []
+    },
+    {
+      "title": "Formación escolar",
+      "period": "Fechas TODO",
+      "organization": "Consorcio La Inmaculada",
+      "description": "Estudios escolares previos a la etapa universitaria.",
+      "highlights": []
+    }
+  ],
+  "experience": [
+    {
+      "title": "Desarrollo de proyectos académicos (ficticio)",
+      "period": "2025 – 2026 (ficticio)",
+      "organization": "Laboratorio universitario ficticio",
+      "description": "Prácticas de desarrollo de aplicaciones y colaboración.",
+      "highlights": [
+        "Diseño de interfaces accesibles.",
+        "Organización de tareas y documentación de proyectos.",
+        "Exploración de soluciones para la comunidad."
+      ]
+    },
+    {
+      "title": "Grupo de estudio de programación (ficticio)",
+      "period": "2025 (ficticio)",
+      "organization": "Comunidad de aprendizaje ficticia",
+      "description": "Actividades de práctica y resolución de ejercicios.",
+      "highlights": ["Revisión colaborativa de código.", "Presentación de prototipos educativos."]
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+<section id="contact" class="contact section">
+  <div class="container section-title" data-aos="fade-up">
+    <h2>Contacto</h2>
+    <p>
+      Comparte una idea o una propuesta de colaboración. El formulario es una demostración local: no
+      envía mensajes.
+    </p>
+  </div>
+  <div class="container" data-aos="fade-up" data-aos-delay="100">
+    <div class="row gy-4">
+      <div class="col-lg-5">
+        <div class="info-wrap">
+          <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
+            <i class="bi bi-geo-alt flex-shrink-0" aria-hidden="true"></i>
+            <div>
+              <h3>Ubicación</h3>
+              <p>{{ profile().city }}</p>
+            </div>
+          </div>
+          <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
+            <i class="bi bi-telephone flex-shrink-0" aria-hidden="true"></i>
+            <div>
+              <h3>Teléfono</h3>
+              <p>{{ profile().phone || 'TODO completar' }}</p>
+            </div>
+          </div>
+          <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
+            <i class="bi bi-envelope flex-shrink-0" aria-hidden="true"></i>
+            <div>
+              <h3>Email</h3>
+              <p>{{ profile().email || 'TODO completar' }}</p>
+            </div>
+          </div>
+          <iframe
+            [src]="mapUrl()"
+            title="Mapa de ubicación ficticia: La Paz, Bolivia"
+            style="border: 0; width: 100%; height: 270px"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+      <div class="col-lg-7">
+        <form
+          [formGroup]="form"
+          (ngSubmit)="submit()"
+          class="php-email-form"
+          novalidate
+          data-aos="fade-up"
+          data-aos-delay="200"
+        >
+          <div class="row gy-4">
+            <div class="col-md-6">
+              <label for="name-field" class="pb-2">Nombre</label
+              ><input
+                type="text"
+                id="name-field"
+                formControlName="name"
+                class="form-control"
+                autocomplete="name"
+                maxlength="100"
+                required
+                [attr.aria-invalid]="invalid('name')"
+                aria-describedby="name-error"
+              />
+              @if (invalid('name')) {
+                <small id="name-error" class="text-danger">Escribe tu nombre.</small>
+              }
+            </div>
+            <div class="col-md-6">
+              <label for="email-field" class="pb-2">Email</label
+              ><input
+                type="email"
+                id="email-field"
+                formControlName="email"
+                class="form-control"
+                autocomplete="email"
+                maxlength="254"
+                required
+                [attr.aria-invalid]="invalid('email')"
+                aria-describedby="email-error"
+              />
+              @if (invalid('email')) {
+                <small id="email-error" class="text-danger">Escribe un email válido.</small>
+              }
+            </div>
+            <div class="col-md-12">
+              <label for="subject-field" class="pb-2">Asunto</label
+              ><input
+                type="text"
+                id="subject-field"
+                formControlName="subject"
+                class="form-control"
+                maxlength="150"
+                required
+                [attr.aria-invalid]="invalid('subject')"
+                aria-describedby="subject-error"
+              />
+              @if (invalid('subject')) {
+                <small id="subject-error" class="text-danger">Escribe el asunto.</small>
+              }
+            </div>
+            <div class="col-md-12">
+              <label for="message-field" class="pb-2">Mensaje</label
+              ><textarea
+                id="message-field"
+                formControlName="message"
+                class="form-control"
+                rows="10"
+                maxlength="2000"
+                required
+                [attr.aria-invalid]="invalid('message')"
+                aria-describedby="message-error"
+              ></textarea>
+              @if (invalid('message')) {
+                <small id="message-error" class="text-danger"
+                  >Escribe entre 10 y 2000 caracteres.</small
+                >
+              }
+            </div>
+            <div class="col-md-12 text-center">
+              @if (sent()) {
+                <div class="sent-message" role="status">
+                  Demostración completada. Tu mensaje no se ha enviado ni almacenado.
+                </div>
+              }
+              <button type="submit">Probar envío</button>
+              <p class="small mt-3 mb-0">Demostración sin envío real ni almacenamiento de datos.</p>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>

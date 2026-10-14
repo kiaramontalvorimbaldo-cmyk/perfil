@@ -1,0 +1,70 @@
+/* Adaptaciones funcionales Angular. main.css original permanece intacto. */
+app-root,
+app-header,
+app-footer,
+app-hero,
+app-about,
+app-facts,
+app-skills,
+app-resume,
+app-portfolio,
+app-services,
+app-testimonials,
+app-contact,
+app-multimedia {
+  display: contents;
+}
+button.header-toggle,
+button.scroll-top {
+  border: 0;
+  padding: 0;
+}
+.skip-link {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  z-index: 10000;
+  background: white;
+  padding: 12px;
+}
+.header .sitename {
+  text-align: center;
+}
+:focus-visible {
+  outline: 3px solid #149ddd;
+  outline-offset: 4px;
+}
+.contact .php-email-form .sent-message {
+  display: block;
+}
+.contact .php-email-form .error-message {
+  display: block;
+}
+.portfolio-filters button {
+  border: 0;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  padding: 0;
+}
+video,
+audio {
+  max-width: 100%;
+}
+.portfolio .portfolio-content:focus-within .portfolio-info { opacity: 1; }
+.media-lightbox { display: block; }
+@media (min-width: 1200px) {
+  .main,
+  #footer {
+    margin-left: 300px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}

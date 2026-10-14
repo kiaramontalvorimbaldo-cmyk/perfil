@@ -1,0 +1,52 @@
+{
+  "name": "Kiara Laleshca Montalvo Rimbaldo",
+  "shortName": "Kiara Montalvo",
+  "roles": [
+    "estudiante de Ingeniería de Sistemas",
+    "creadora de soluciones digitales",
+    "apasionada por la tecnología"
+  ],
+  "bio": "Soy Kiara, estudiante de Ingeniería de Sistemas en Unifranz. Este espacio reúne mi aprendizaje, mi creatividad y las ideas que quiero convertir en soluciones digitales.",
+  "title": "Estudiante de Ingeniería de Sistemas",
+  "intro": "Me interesa construir herramientas útiles, sencillas y accesibles. Aprendo creando y compartiendo.",
+  "description": "Mi formación escolar en Consorcio La Inmaculada y mi etapa universitaria me impulsan a seguir explorando el desarrollo web, la programación y el trabajo en equipo.",
+  "birthday": "10 de febrero de 2006",
+  "age": 20,
+  "degree": "Ingeniería de Sistemas · en formación",
+  "city": "La Paz, Bolivia (ficticio)",
+  "email": "",
+  "phone": "",
+  "website": "",
+  "freelance": "Proyectos académicos (ficticio)",
+  "portrait": "assets/img/portrait.svg",
+  "hero": "assets/img/hero.svg",
+  "socials": [
+    {
+      "label": "GitHub",
+      "icon": "bi-github",
+      "url": "https://github.com/kiaramontalvorimbaldo-cmyk"
+    }
+  ],
+  "mapQuery": "La Paz Bolivia",
+  "multimedia": {
+    "title": "Mi espacio multimedia",
+    "description": "Material de demostración ficticio: una presentación animada, audio instrumental y piezas gráficas creadas para este portafolio. Sustituir por fotos, video y voz personales.",
+    "video": "assets/media/presentacion-demo.mp4",
+    "audio": "assets/media/audio-demo.wav",
+    "poster": "assets/img/hero.svg",
+    "gallery": [
+      {
+        "src": "assets/img/campus.svg",
+        "alt": "Ilustración ficticia: Aprender en comunidad"
+      },
+      {
+        "src": "assets/img/code.svg",
+        "alt": "Ilustración ficticia: Crear con código"
+      },
+      {
+        "src": "assets/img/ideas.svg",
+        "alt": "Ilustración ficticia: Explorar ideas"
+      }
+    ]
+  }
+}

@@ -1,0 +1,53 @@
+<section id="resume" class="resume section">
+  <div class="container section-title" data-aos="fade-up">
+    <h2>Trayectoria</h2>
+    <p>{{ resume().description }}</p>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+        <h3 class="resume-title">Perfil</h3>
+        <div class="resume-item pb-0">
+          <h4>{{ profile().name }}</h4>
+          <p>
+            <em>{{ resume().summary }}</em>
+          </p>
+          <ul>
+            @for (contact of resume().contacts; track contact) {
+              <li>{{ contact }}</li>
+            }
+          </ul>
+        </div>
+        <h3 class="resume-title">Educación</h3>
+        @for (item of resume().education; track item.title) {
+          <div class="resume-item">
+            <h4>{{ item.title }}</h4>
+            <h5>{{ item.period }}</h5>
+            <p>
+              <em>{{ item.organization }}</em>
+            </p>
+            <p>{{ item.description }}</p>
+          </div>
+        }
+      </div>
+      <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+        <h3 class="resume-title">Experiencia académica</h3>
+        @for (item of resume().experience; track item.title) {
+          <div class="resume-item">
+            <h4>{{ item.title }}</h4>
+            <h5>{{ item.period }}</h5>
+            <p>
+              <em>{{ item.organization }}</em>
+            </p>
+            <p>{{ item.description }}</p>
+            <ul>
+              @for (highlight of item.highlights; track highlight) {
+                <li>{{ highlight }}</li>
+              }
+            </ul>
+          </div>
+        }
+      </div>
+    </div>
+  </div>
+</section>

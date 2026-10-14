@@ -1,0 +1,83 @@
+{
+  "description": "Áreas de interés y propuestas ficticias de colaboración académica; no constituyen servicios profesionales acreditados.",
+  "items": [
+    {
+      "id": "web",
+      "title": "Desarrollo web",
+      "icon": "bi-code-slash",
+      "description": "Interfaces adaptables y accesibles para ideas digitales.",
+      "image": "assets/img/code.svg",
+      "detail": "Interfaces adaptables y accesibles para ideas digitales. Propuesta ficticia para prácticas académicas supervisadas.",
+      "highlights": [
+        "Definir el problema y los objetivos.",
+        "Crear un prototipo y documentar decisiones.",
+        "Revisar accesibilidad y experiencia de uso."
+      ]
+    },
+    {
+      "id": "ui",
+      "title": "Diseño de interfaces",
+      "icon": "bi-palette",
+      "description": "Prototipos centrados en claridad y facilidad de uso.",
+      "image": "assets/img/code.svg",
+      "detail": "Prototipos centrados en claridad y facilidad de uso. Propuesta ficticia para prácticas académicas supervisadas.",
+      "highlights": [
+        "Definir el problema y los objetivos.",
+        "Crear un prototipo y documentar decisiones.",
+        "Revisar accesibilidad y experiencia de uso."
+      ]
+    },
+    {
+      "id": "data",
+      "title": "Exploración de datos",
+      "icon": "bi-bar-chart",
+      "description": "Visualizaciones para comprender información.",
+      "image": "assets/img/code.svg",
+      "detail": "Visualizaciones para comprender información. Propuesta ficticia para prácticas académicas supervisadas.",
+      "highlights": [
+        "Definir el problema y los objetivos.",
+        "Crear un prototipo y documentar decisiones.",
+        "Revisar accesibilidad y experiencia de uso."
+      ]
+    },
+    {
+      "id": "learning",
+      "title": "Aprendizaje colaborativo",
+      "icon": "bi-people",
+      "description": "Estudio en equipo y documentación de proyectos.",
+      "image": "assets/img/code.svg",
+      "detail": "Estudio en equipo y documentación de proyectos. Propuesta ficticia para prácticas académicas supervisadas.",
+      "highlights": [
+        "Definir el problema y los objetivos.",
+        "Crear un prototipo y documentar decisiones.",
+        "Revisar accesibilidad y experiencia de uso."
+      ]
+    },
+    {
+      "id": "prototype",
+      "title": "Prototipos académicos",
+      "icon": "bi-lightbulb",
+      "description": "Transformar una idea en una propuesta navegable.",
+      "image": "assets/img/code.svg",
+      "detail": "Transformar una idea en una propuesta navegable. Propuesta ficticia para prácticas académicas supervisadas.",
+      "highlights": [
+        "Definir el problema y los objetivos.",
+        "Crear un prototipo y documentar decisiones.",
+        "Revisar accesibilidad y experiencia de uso."
+      ]
+    },
+    {
+      "id": "docs",
+      "title": "Documentación",
+      "icon": "bi-file-earmark-text",
+      "description": "Guías claras para compartir procesos y resultados.",
+      "image": "assets/img/code.svg",
+      "detail": "Guías claras para compartir procesos y resultados. Propuesta ficticia para prácticas académicas supervisadas.",
+      "highlights": [
+        "Definir el problema y los objetivos.",
+        "Crear un prototipo y documentar decisiones.",
+        "Revisar accesibilidad y experiencia de uso."
+      ]
+    }
+  ]
+}

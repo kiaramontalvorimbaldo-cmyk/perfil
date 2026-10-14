@@ -1,0 +1,55 @@
+<header id="header" class="header dark-background d-flex flex-column" [class.header-show]="open()">
+  <button
+    type="button"
+    class="header-toggle d-xl-none bi"
+    [class.bi-list]="!open()"
+    [class.bi-x]="open()"
+    (click)="open.set(!open())"
+    [attr.aria-expanded]="open()"
+    aria-controls="navmenu"
+    [attr.aria-label]="open() ? 'Cerrar menú' : 'Abrir menú'"
+  ></button>
+  <div class="profile-img">
+    <img
+      [src]="profile().portrait"
+      alt="Avatar ilustrado ficticio de Kiara; foto personal pendiente"
+      class="img-fluid rounded-circle"
+      width="600"
+      height="600"
+    />
+  </div>
+  <a
+    routerLink="/"
+    fragment="hero"
+    class="logo d-flex align-items-center justify-content-center"
+    (click)="open.set(false)"
+    ><h1 class="sitename">{{ profile().shortName }}</h1></a
+  >
+  <div class="social-links text-center">
+    @for (social of profile().socials; track social.label) {
+      <a
+        [href]="social.url"
+        target="_blank"
+        rel="noopener noreferrer"
+        [attr.aria-label]="social.label"
+        ><i class="bi" [class]="'bi ' + social.icon" aria-hidden="true"></i
+      ></a>
+    }
+  </div>
+  <nav id="navmenu" class="navmenu" aria-label="Navegación principal">
+    <ul>
+      @for (link of links; track link.id) {
+        <li>
+          <a
+            routerLink="/"
+            [fragment]="link.id"
+            [class.active]="active() === link.id"
+            [attr.aria-current]="active() === link.id ? 'location' : null"
+            (click)="open.set(false); active.set(link.id)"
+            ><i [class]="'bi navicon ' + link.icon" aria-hidden="true"></i>{{ link.label }}</a
+          >
+        </li>
+      }
+    </ul>
+  </nav>
+</header>

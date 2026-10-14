@@ -1,0 +1,47 @@
+{
+  "description": "Testimonios ficticios de demostraciÃ³n. No son recomendaciones de personas reales.",
+  "items": [
+    {
+      "id": "1",
+      "name": "Ana (ficticio)",
+      "role": "CompaÃ±era ficticia",
+      "quote": "Una propuesta clara para compartir ideas y aprender en equipo.",
+      "image": "assets/img/avatar.svg"
+    },
+    {
+      "id": "2",
+      "name": "Luis (ficticio)",
+      "role": "Colaborador ficticio",
+      "quote": "La documentaciÃ³n ayuda a entender cada paso del proyecto.",
+      "image": "assets/img/avatar.svg"
+    },
+    {
+      "id": "3",
+      "name": "MarÃ­a (ficticio)",
+      "role": "Mentora ficticia",
+      "quote": "Un espacio de prÃ¡ctica para desarrollar creatividad y pensamiento tÃ©cnico.",
+      "image": "assets/img/avatar.svg"
+    },
+    {
+      "id": "4",
+      "name": "Diego (ficticio)",
+      "role": "Colaborador ficticio",
+      "quote": "Cada prototipo ayuda a convertir una pregunta en una nueva oportunidad de aprendizaje.",
+      "image": "assets/img/avatar.svg"
+    },
+    {
+      "id": "5",
+      "name": "Sofía (ficticio)",
+      "role": "Colaborador ficticio",
+      "quote": "Me gusta la atención a la accesibilidad y a la claridad de las interfaces.",
+      "image": "assets/img/avatar.svg"
+    },
+    {
+      "id": "6",
+      "name": "Pablo (ficticio)",
+      "role": "Colaborador ficticio",
+      "quote": "Un portafolio que invita a seguir explorando nuevas ideas.",
+      "image": "assets/img/avatar.svg"
+    }
+  ]
+}

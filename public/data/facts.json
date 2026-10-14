@@ -1,0 +1,26 @@
+[
+  {
+    "icon": "bi-journal-richtext",
+    "value": 6,
+    "label": "Proyectos académicos",
+    "description": "Cifra ficticia de demostración"
+  },
+  {
+    "icon": "bi-code-slash",
+    "value": 120,
+    "label": "Horas de práctica",
+    "description": "Cifra ficticia de demostración"
+  },
+  {
+    "icon": "bi-people",
+    "value": 3,
+    "label": "Equipos de estudio",
+    "description": "Cifra ficticia de demostración"
+  },
+  {
+    "icon": "bi-lightbulb",
+    "value": 12,
+    "label": "Ideas exploradas",
+    "description": "Cifra ficticia de demostración"
+  }
+]

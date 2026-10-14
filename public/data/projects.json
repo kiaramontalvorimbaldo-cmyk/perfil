@@ -1,0 +1,151 @@
+{
+  "description": "Seis conceptos académicos ficticios creados para esta demostración. No representan trabajos o clientes reales.",
+  "categories": [
+    {
+      "id": "app",
+      "label": "Aplicaciones"
+    },
+    {
+      "id": "web",
+      "label": "Sitios web"
+    },
+    {
+      "id": "data",
+      "label": "Datos"
+    }
+  ],
+  "items": [
+    {
+      "id": "aula",
+      "title": "Aula Conecta",
+      "category": "app",
+      "categoryLabel": "Aplicaciones",
+      "description": "Organización de tareas y recursos para estudiantes.",
+      "image": "assets/img/aula.svg",
+      "images": [
+        {
+          "src": "assets/img/aula.svg",
+          "alt": "Aula Conecta: concepto ficticio"
+        },
+        {
+          "src": "assets/img/code.svg",
+          "alt": "Aula Conecta: proceso ilustrado ficticio"
+        }
+      ],
+      "date": "2026 (ficticio)",
+      "client": "Proyecto académico ficticio",
+      "url": "",
+      "detail": "Organización de tareas y recursos para estudiantes. Este es un concepto ficticio creado para mostrar la estructura del portafolio. No representa un producto desarrollado o un cliente real. El planteamiento incluye investigación, diseño de interfaz y evaluación con usuarios."
+    },
+    {
+      "id": "habitos",
+      "title": "Ruta de Hábitos",
+      "category": "app",
+      "categoryLabel": "Aplicaciones",
+      "description": "Seguimiento sencillo de metas de aprendizaje.",
+      "image": "assets/img/habitos.svg",
+      "images": [
+        {
+          "src": "assets/img/habitos.svg",
+          "alt": "Ruta de Hábitos: concepto ficticio"
+        },
+        {
+          "src": "assets/img/code.svg",
+          "alt": "Ruta de Hábitos: proceso ilustrado ficticio"
+        }
+      ],
+      "date": "2026 (ficticio)",
+      "client": "Proyecto académico ficticio",
+      "url": "",
+      "detail": "Seguimiento sencillo de metas de aprendizaje. Este es un concepto ficticio creado para mostrar la estructura del portafolio. No representa un producto desarrollado o un cliente real. El planteamiento incluye investigación, diseño de interfaz y evaluación con usuarios."
+    },
+    {
+      "id": "biblioteca",
+      "title": "Biblioteca Abierta",
+      "category": "web",
+      "categoryLabel": "Sitios web",
+      "description": "Catálogo accesible de lecturas y recursos.",
+      "image": "assets/img/biblioteca.svg",
+      "images": [
+        {
+          "src": "assets/img/biblioteca.svg",
+          "alt": "Biblioteca Abierta: concepto ficticio"
+        },
+        {
+          "src": "assets/img/code.svg",
+          "alt": "Biblioteca Abierta: proceso ilustrado ficticio"
+        }
+      ],
+      "date": "2026 (ficticio)",
+      "client": "Proyecto académico ficticio",
+      "url": "",
+      "detail": "Catálogo accesible de lecturas y recursos. Este es un concepto ficticio creado para mostrar la estructura del portafolio. No representa un producto desarrollado o un cliente real. El planteamiento incluye investigación, diseño de interfaz y evaluación con usuarios."
+    },
+    {
+      "id": "eco",
+      "title": "EcoCampus",
+      "category": "web",
+      "categoryLabel": "Sitios web",
+      "description": "Ideas para una comunidad universitaria sostenible.",
+      "image": "assets/img/eco.svg",
+      "images": [
+        {
+          "src": "assets/img/eco.svg",
+          "alt": "EcoCampus: concepto ficticio"
+        },
+        {
+          "src": "assets/img/code.svg",
+          "alt": "EcoCampus: proceso ilustrado ficticio"
+        }
+      ],
+      "date": "2026 (ficticio)",
+      "client": "Proyecto académico ficticio",
+      "url": "",
+      "detail": "Ideas para una comunidad universitaria sostenible. Este es un concepto ficticio creado para mostrar la estructura del portafolio. No representa un producto desarrollado o un cliente real. El planteamiento incluye investigación, diseño de interfaz y evaluación con usuarios."
+    },
+    {
+      "id": "datos",
+      "title": "Pulso de Datos",
+      "category": "data",
+      "categoryLabel": "Datos",
+      "description": "Panel de indicadores para explorar información.",
+      "image": "assets/img/datos.svg",
+      "images": [
+        {
+          "src": "assets/img/datos.svg",
+          "alt": "Pulso de Datos: concepto ficticio"
+        },
+        {
+          "src": "assets/img/code.svg",
+          "alt": "Pulso de Datos: proceso ilustrado ficticio"
+        }
+      ],
+      "date": "2026 (ficticio)",
+      "client": "Proyecto académico ficticio",
+      "url": "",
+      "detail": "Panel de indicadores para explorar información. Este es un concepto ficticio creado para mostrar la estructura del portafolio. No representa un producto desarrollado o un cliente real. El planteamiento incluye investigación, diseño de interfaz y evaluación con usuarios."
+    },
+    {
+      "id": "finanzas",
+      "title": "Mi Presupuesto",
+      "category": "data",
+      "categoryLabel": "Datos",
+      "description": "Visualización de ingresos y gastos para estudiantes.",
+      "image": "assets/img/finanzas.svg",
+      "images": [
+        {
+          "src": "assets/img/finanzas.svg",
+          "alt": "Mi Presupuesto: concepto ficticio"
+        },
+        {
+          "src": "assets/img/code.svg",
+          "alt": "Mi Presupuesto: proceso ilustrado ficticio"
+        }
+      ],
+      "date": "2026 (ficticio)",
+      "client": "Proyecto académico ficticio",
+      "url": "",
+      "detail": "Visualización de ingresos y gastos para estudiantes. Este es un concepto ficticio creado para mostrar la estructura del portafolio. No representa un producto desarrollado o un cliente real. El planteamiento incluye investigación, diseño de interfaz y evaluación con usuarios."
+    }
+  ]
+}

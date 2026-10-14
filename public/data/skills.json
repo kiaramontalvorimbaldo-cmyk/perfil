@@ -1,0 +1,29 @@
+{
+  "description": "Autoevaluación ficticia de demostración; los porcentajes se pueden actualizar en el archivo de habilidades.",
+  "items": [
+    {
+      "name": "HTML",
+      "value": 80
+    },
+    {
+      "name": "CSS",
+      "value": 75
+    },
+    {
+      "name": "JavaScript",
+      "value": 65
+    },
+    {
+      "name": "Angular",
+      "value": 55
+    },
+    {
+      "name": "Python",
+      "value": 60
+    },
+    {
+      "name": "Trabajo en equipo",
+      "value": 85
+    }
+  ]
+}
